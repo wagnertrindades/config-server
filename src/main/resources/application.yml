@@ -3,10 +3,9 @@ server:
   port: 8888
   
 spring:
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          searchLocations: /microservice-config-repo
+        git:
+          uri: https://github.com/wagnertrindades/microservice-config-repo
+          search-paths: provider
