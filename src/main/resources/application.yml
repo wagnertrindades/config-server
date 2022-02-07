@@ -8,4 +8,4 @@ spring:
       server:
         git:
           uri: https://github.com/wagnertrindades/microservice-config-repo
-          search-paths: provider
+          search-paths: provider, store
